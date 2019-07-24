@@ -27,12 +27,14 @@
 
 ul li.current{
     background-color: #e8c59c;
+    transition: background-color .5s;
 }
 ul li.current a{
     color: #555;
 }
 ul li:hover{
     background-color: #FFF2CC;
+    transition: background-color .5s;
 }
 
 .img_size_width {
@@ -43,14 +45,26 @@ ul li:hover{
 }
 
 .img_size_recommend {
-    max-width: 30%;
+    max-width: 20%;
+    border: 10px solid white;
     height: auto;
-    margin: 0px;
+    margin: 10px;
 }
+
 #details{
     font-family: serif;
     text-align: center;
+    background-image: url("img/flower_12.jpg");
+    background-size: 100%;
+    color: #303030;
 }
+
 #recommend h2 {
-    font-family: "Monotype Corsiva",fantasy
+    font-family: "Monotype Corsiva",fantasy;
+    color: #303030;
+}
+
+#recommend a :hover{
+    border: 10px solid #DCDCDC;
+    transition: border .5s;
 }
